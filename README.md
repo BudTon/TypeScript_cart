@@ -1,6 +1,6 @@
 # Домашнее задание к лекции «TypeScript»
 
-
+[![Build status](https://ci.appveyor.com/api/projects/status/ii7093w5r6qo6y4d?svg=true)](https://ci.appveyor.com/project/BudTon/typescript-cart)
 
 **Важно**: тесты обеспечивают 100% покрытие тестируемых функций по строкам.
 
