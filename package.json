@@ -6,7 +6,7 @@
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
     "watch": "tsc -w",
-    "lint": "eslint . --fix",
+    "lint": "eslint --ignore-pattern '!.dist' ",
     "test": "jest --coverage",
     "preshow:coverage": "npm run coverage",
     "show:coverage": "live-server coverage/lcov-report",
@@ -45,5 +45,9 @@
   "description": "",
   "dependencies": {
     "core-js": "^3.38.1"
-  }
+  },
+  "eslintIgnore": [
+    ".dist/main.js",
+    ".dist/*"
+  ]
 }
